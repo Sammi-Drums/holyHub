@@ -23,7 +23,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     color: var(--text-primary-color);
 }
 
@@ -68,13 +68,7 @@ body {
     color: white;
 }
 
-/* 4. Footer Styling */
-footer {
-    background: var(--navbar-footer-color);
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-}
+
 
 /* 5. Section Padding */
 section {
