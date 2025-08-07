@@ -11,8 +11,9 @@
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<div class="navback">
+      <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark   bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">HolidayTechHub</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -34,24 +35,52 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero">
-    <div class="container mt-1 pt-3 row g-4 d-flex align-items-center justify-content-between">
-      <div class="hero-left col-lg-6 text-center">
-        <h1 class="display-4 ">Welcome to Holiday Tech Hub</h1>
-        <p class="lead">See What Our Future Tech Leaders Are Building!</p>
-        <a href="#" class="btn btn-gradient btn-lg">Explore Projects</a>
-      </div>
-      <!-- flip image -->
-      <div class="hero-right col-lg-6 flip-3d-pic">
-        <div class="flip-3d-pic">
-        <img src="images/" alt="Hero Image" class="img-fluid"> 
-        <div class="flip-3d-overlay text-center">
-          <h2>Innovative Solutions</h2>
-          <p>Empowering the Next Generation of Tech Leaders</p>
+  <section class="hero-clip">
+  <div class="hero-overlay">
+    <div class="container py-5">
+      <div class="row g-3 align-items-center justify-content-between">
+        
+        <!-- Left: Hero Text -->
+        <div class="col-lg-6 text-center  text-white">
+          <h1 class="display-4 fw-bold">Welcome to Holiday Tech Hub</h1>
+          <p class="lead">See What Our Future Tech Leaders Are Building!</p>
+          <a href="#" class="btn btn-gradient btn-lg mt-3">Explore Projects</a>
         </div>
+
+        <!-- Right: 3D Circular Flip Image -->
+        <div class="col-lg-6 d-flex justify-content-center position-relative">
+          <div class="clip-text">TECH-HUB</div>
+
+          <div class="flip-card-hero">
+            <div class="flip-card-inner-hero">
+
+              <!-- Front -->
+              <div class="flip-card-front-hero d-flex justify-content-center align-items-center">
+                <img src="Images/heroImg.jpg" alt="Hero Face" class="circle-img">
+              </div>
+
+              <!-- Back -->
+              <div class="flip-card-back-hero d-flex justify-content-center align-items-center text-center p-4">
+                <div>
+                  <h3 class="fw-bold">Inspiring Young Minds</h3>
+                  <p>Empowering the Next Generation of Tech Leaders through Creativity & Code.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
-  </section>
+  </div>
+</section>
+</div>
+
+<!-- testing some changes -->
+ <!-- Hero Section -->
+
+
 
   <!-- Featured Projects -->
   <section class="py-5">

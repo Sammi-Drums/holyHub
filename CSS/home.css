@@ -17,3 +17,118 @@
     padding: 60px 0;
     color: white;
 }
+/* testing some changes */
+/* General Hero Section Styling */
+
+
+
+
+
+
+
+
+/* Hero Section Background + Overlay */
+.hero-clip {
+  background: url('../Images/hero-bg.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  height: 100%;
+}
+
+.clip-text {
+  font-size: 140px;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(45deg, #6a11cb, #618bd3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.2;
+  z-index: 1;
+  animation: slide-text 4s infinite alternate;
+}
+
+@keyframes slide-text {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+}
+
+/* Flip Card */
+.flip-card-hero {
+  background-color: transparent;
+  width: 350px;
+  height: 350px;
+  perspective: 1000px;
+  z-index: 2;
+}
+
+.flip-card-inner-hero {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+}
+
+.flip-card-hero:hover .flip-card-inner-hero {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-hero,
+.flip-card-back-hero {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Front: Circular Image */
+.flip-card-front-hero img.circle-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Back: Text */
+.flip-card-back-hero {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+/* Gradient Button */
+.btn-gradient {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+}

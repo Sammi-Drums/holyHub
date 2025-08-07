@@ -1,10 +1,80 @@
-/* Flipping 3D-effects */
-.flip-3d-pic {
+/* Hero Section Background + Overlay */
+
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  width: 100%;
+  height: 100%;
+}
+
+/* Flip Card */
+.flip-card-hero {
+  background-color: transparent;
+  width: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-hero-inner {
   position: relative;
   width: 100%;
-  height: 400px;
-  perspective: 1000px; /* Perspective for 3D effect */
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
+
+.flip-card-hero:hover .flip-card-hero-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-hero-front,
+.flip-card-hero-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+
+.flip-card-hero-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flip-card-back-hero {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  transform: rotateY(180deg);
+  text-align: center;
+}
+/* Clip Text section */
+/* .clip-text {
+  font-size: 120px;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(45deg, #9967ce, #bbc5d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.15;
+  animation: slide-text 5s infinite alternate;
+  z-index: 1;
+} */
+
+/* Slide animation for clip text */
+/* @keyframes slide-text {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+} */
+
 /* Flipping Card Styles */
 .flip-card {
   background-color: transparent;
