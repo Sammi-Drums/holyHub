@@ -42,7 +42,7 @@ body {
 }
 
 .nav-link:hover {
-    color: var(--accent-color) !important;
+    color: var(--background-color) !important;
 }
 .bg-dark {
     background-color: #000F28 !important;

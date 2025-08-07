@@ -10,12 +10,22 @@
     background: linear-gradient(45deg, #5b0dbf, #1f5edc);
     color: white;
 }
+/* banner section */
 .bg-banner {
     /* background: url('../images/banner-bg.jpg') no-repeat center center;
     background-size: cover; */
     background-color: #3f11aa;
     padding: 60px 0;
     color: white;
+}
+.btn-border{
+    border: 2px solid white;
+    color: white;
+    transition: 0.3s ease;
+}
+.btn-border:hover {
+    background-color: white;
+    color: #3f11aa;
 }
 /* testing some changes */
 /* General Hero Section Styling */
@@ -131,4 +141,18 @@
 
 .btn-gradient:hover {
   opacity: 0.9;
+}
+/* Featured Projects Section */
+.project-card {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+.project-card img {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 300px;
+  object-fit: cover;
 }
