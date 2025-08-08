@@ -44,15 +44,15 @@ body {
 .nav-link:hover {
     color: var(--background-color) !important;
 }
-.bg-dark {
+.bg-darkk {
     background-color: #000F28 !important;
 }
 .navback {
-  position: relative;
-  background-image: url('../Images/BackgroundImages/blue4.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    position: relative;
+    background-image: url('../Images/BackgroundImages/blue4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .btn-register {
