@@ -94,10 +94,30 @@
   background-size: cover;
 }
 .maurine-image{
-  background-image: url(../Images/Muno_Maurine_Ajuh.jpg);
+  background-image: url(../Images/Mme_Ajuh.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  /* background-position: top center; */
+}
+.wanje-image{
+  background-image: url(../Images/Mrs_Comfort_RD.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ferla-image{
+  background-image: url(../Images/Mrs_IIyn_Ferla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kilem-image{
+  background-image: url(../Images/Mr_Kilem.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.emelda-image{
+  background-image: url(../Images/Mrs_Emelda.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .flip-card-hero {
   background-color: transparent;
