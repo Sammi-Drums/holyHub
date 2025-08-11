@@ -89,9 +89,15 @@
   background-size: cover;
 }
 .deby-image{
-  background-image: url(../Images/Engr_AkiaSamuel.jpg);
+  background-image: url(../Images/Kimah_Debora_Abato.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.maurine-image{
+  background-image: url(../Images/Muno_Maurine_Ajuh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
 }
 .flip-card-hero {
   background-color: transparent;
