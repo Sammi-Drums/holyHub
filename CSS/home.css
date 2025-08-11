@@ -30,11 +30,11 @@
 /* testing some changes */
 /* General Hero Section Styling */
 
-
-
-
-
-
+.enerst-img img{
+  background-image: url(../Images/Enerst.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 /* Hero Section Background + Overlay */
