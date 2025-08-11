@@ -78,6 +78,21 @@
 }
 
 /* Flip Card */
+.sam-image{
+  background-image: url(../Images/Engr_AkiaSamuel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stanis-image{
+  background-image: url(../Images/Engr_AkiaSamuel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deby-image{
+  background-image: url(../Images/Engr_AkiaSamuel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .flip-card-hero {
   background-color: transparent;
   width: 350px;
