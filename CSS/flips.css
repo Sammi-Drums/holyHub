@@ -118,10 +118,16 @@
 }
 .flip-card-front h2,
 .flip-card-back h2 {
-    margin: 0;
-    padding: 20px;
-    }
+  margin: 0;
+  padding: 20px;
+}
 
+/* Social Icons */
 
-
-
+.social-icons a {
+  color: #9d6ad3c0;
+  text-decoration: none;
+}
+.social-icons a:hover{
+  color: #6a11cb;
+}

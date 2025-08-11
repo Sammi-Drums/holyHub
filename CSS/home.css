@@ -82,42 +82,73 @@
   background-image: url(../Images/Engr_AkiaSamuel.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+.sam-image-front img{
+  width: 10%;
+  height: 10%;
 }
 .stanis-image{
   background-image: url(../Images/Mr_Stanis.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+.stanis-image-front img{
+  width: 10%;
+}
 .deby-image{
   background-image: url(../Images/Kimah_Debora_Abato.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+.deby-image-front img{
+  width: 10%;
+  height: 10%;
+}
 .maurine-image{
   background-image: url(../Images/Mme_Ajuh.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: top center; */
+}
+.maurine-image-front img{
+  width: 10%;
+  height: 10%;
 }
 .wanje-image{
   background-image: url(../Images/Mrs_Comfort_RD.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+.wanje-image-front img{
+  width: 10%;
+  height: 10%;
+}
 .ferla-image{
   background-image: url(../Images/Mrs_IIyn_Ferla.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.ferla-image-front img{
+  width: 10%;
+  height: 10%;
 }
 .kilem-image{
   background-image: url(../Images/Mr_Kilem.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+.kilem-image-front img{
+  width: 10%;
+  height: 10%;
+}
 .emelda-image{
   background-image: url(../Images/Mrs_Emelda.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.emelda-image-front img{
+  width: 10%;
+  height: 10%;
 }
 .flip-card-hero {
   background-color: transparent;
@@ -151,6 +182,7 @@
   background-color: white;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
+
 
 /* Front: Circular Image */
 .flip-card-front-hero img.circle-img {
