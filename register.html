@@ -33,7 +33,43 @@
             </div>
         </nav> 
     </div>
-    <br><br><br><br><br><br><br><br>
+    <br><br>
+    
+    <!-- Creating a registration form where parents can sign-up for their children during registration and can also support the holiday traning session -->
+    <div class="container my-5">
+        <h2 class="text-center text-dark">Registration Form</h2>
+        <form class="bg-light p-4 rounded shadow">
+            <div class="mb-3">
+                <label for="parentName" class="form-label">Parent's Name</label>
+                <input type="text" class="form-control" id="parentName" required>
+            </div>
+            <div class="mb-3">
+                <label for="childName" class="form-label">Child's Name</label>
+                <input type="text" class="form-control" id="childName" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <div class="mb-3">
+                <label for="session" class="form-label">Select Training Session</label>
+                <select class="form-select" id="session" required>
+                    <option value="">Choose...</option>
+                    <option value="session1">Computer Literacy</option>
+                    <option value="session2">Beading & Needlework</option>
+                    <option value="session3">Music</option>
+                    <option value="session2">Food & Nutrition</option>
+                    <option value="session3">Arts & Crafts</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-gradient text-white w-100">Register</button>
+        </form>
+    </div>
+    <br><br>
 
         <!-- Footer -->
     <footer class="text-center text-white bg-darkk py-5">
