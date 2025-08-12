@@ -62,13 +62,6 @@
 .gallery-item img {
   transition: transform 0.3s ease;
   width: 100%;
-  height: auto;
-}
-
-.gallery-item img {
-  transition: transform 0.3s ease;
-  width: 100%;
-  height: auto;
   border-radius: 6px;
 }
 
