@@ -55,3 +55,23 @@
   display: flex;
   justify-content: center;
 }
+/* making the images to scale on hover images with equal size */
+.gallery-item {
+
+}
+.gallery-item img {
+  transition: transform 0.3s ease;
+  width: 100%;
+  height: auto;
+}
+
+.gallery-item img {
+  transition: transform 0.3s ease;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
